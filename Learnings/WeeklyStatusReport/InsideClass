@@ -32,8 +32,17 @@ Week 3:
 
 #3 Also learnt about Requirements engineering(RE). It is not only software engineering alone as requirements play a vital role in building software. 
 
+Week 4:
 
-
+# 1.Zachman framework:
+   It is a fundamental structure for Enterprise Architecture which provides a formal and structured way of viewing and defining an enterprise.It is a  framework to organize and analyze data,a two-dimensional schema, used to organize the detailed representations of the enterprise.
+   The Zachman Framework is not a methodology in that it does not imply any specific method or process for collecting, managing, or using the information that it describes.It is an ontology whereby a schema for organizing architectural artifacts.
+     
+# 2.Agile modeling:
+   It believes that every project needs to be handled differently and the existing methods need to be tailored to best suit the project requirements. In agile the tasks are divided to time boxes  to deliver specific features for a release.
+             
+# 3.Demings philosophy:
+   Create constancy of purpose toward improvement of product and service, with the aim to become competitive and to stay in business, and to provide jobs.
 
 
 
