@@ -1,0 +1,26 @@
+User Stories for 3d stealth game:
+
+US1: Player Launches the game.
+
+US2: Player Sees the game menu with options to "Play", "Change controls", "Exit".
+
+US3: Player Clicks on "Play"
+
+US4: The game starts loading and the game area appears.
+
+US5: Player sees an enemy and starts shooting with the weapon (by default gun).
+
+US6: Enemy also counter attacks. 
+
+US7: Either the enemy dies or the player dies.
+
+US8: If all Enemies killed, then Player clears that level and proceeds to next level.
+
+US9: If Player dies, game is over.
+
+US10: Enemy might escape, drop a bomb on the player.
+
+US11: Player can press spacebar to jump, forward movement by forward arrow, backward movement with
+      backward arrow, Left movement with Left arrow, Right movement with  Right arrow, Left Mouse click
+      for shooting enemies, Crouch with 'c', 'Esc' for pausing game and going to pause menu.
+
