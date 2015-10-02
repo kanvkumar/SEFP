@@ -1,5 +1,4 @@
 What you learnt inside the class?
-
 Week1:
 
 #1 Learnt life cycles which exists while developing an application like Requirements phase, Specification phase, design phase, Implementation phase and testing phase
@@ -47,3 +46,22 @@ Week 4:
 Week 5:
 Learnt about how to do documentation using SRS (Software Requirement Specifications) which primarily focusses on Functional
 Requirements, Non-Functional Requirements, Scope of the product being developed, and Goals of Implementation.
+
+Week 6:
+#1 Learnt about software design life cycle which includes Synthesize, Analyse, Evaluate as its main components.
+#2 Also learnt about the 7 problems that a software designer faces: 
+   1) People:Prediction
+   2) TradeOffs:: quantity
+   3) Change
+   4) Bias
+   5) Longetivity: Legacy
+   6) Quality, Cost and effort
+   7) Source Code as a design notation.
+ 
+ #3 Different types of notations followed in software engineering like formal notation, informal notation, Semi-formal
+    notation, No Notation.
+
+
+
+
+
