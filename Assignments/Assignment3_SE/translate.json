@@ -1,0 +1,34 @@
+{
+    "@metadata": {
+        "authors": [
+            "Kanv"
+        ],
+        "last-updated": "2012-09-21",
+        "locale": "hindi",
+        "message-documentation": "qqq",
+        "AnotherMetadata": "AnotherMedatadataValue"
+    },
+
+    "hindi": {
+
+        "h1":"बड़ा",
+        "h2":"बड",
+        "h3":"सूरज",
+        "h4":"सूर",
+        "h5":"दिन",
+        "h6":"दि",
+        "h7":"रात",
+        "h8":"रा",
+        "h9":"अगला",
+        "h10":"अगल"
+               
+        },
+    
+    "ml": {
+        "appname-title": "അപ്ലിക്കേഷന്‍ ഉദാഹരണം",
+        "appname-sub-title": "jquery.i18n ഉപയോഗിച്ചുള്ള അപ്ലിക്കേഷന്‍ ഉദാഹരണം",
+        "appname-header-introduction": "ആമുഖം",
+        "appname-about": "ഈ അപ്ലിക്കേഷനെപ്പറ്റി",
+        "appname-footer": "അടിക്കുറിപ്പു്"
+    }
+}

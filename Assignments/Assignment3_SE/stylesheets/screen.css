@@ -1,0 +1,36 @@
+/* line 1 */
+
+html, body{
+  
+  background-image: url("/home/kanv/Sem5/SE/Assignment3_SE/Halloween.jpg");
+  text-align: center;
+  /*color: #ffffff;*/
+  font-family: Verdana;
+  font-size: 10pt;
+  /*background-color: 'blue' !important;*/
+  /*background-image: url("Halloween.png") !important;*/
+  /*background-size: cover; */
+  /*background-color: 'blue';*/
+}
+
+/*.count{
+  position: relative;
+  margin: 40px 0;
+  padding: 14px 16px;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 600;*/
+  /*font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  +border-radius(4px);*/
+  /*display: inline-block;*/
+  /*background: rgba(255,255,255,0.1);
+  }*/
+
+  /*&.glow{
+    +text-shadow(0 0 4px #ffffff);
+}*/
+
+/*.container{
+	margin-top: 30pt;
+}*/

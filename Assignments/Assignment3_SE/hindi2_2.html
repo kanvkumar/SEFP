@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Spelloween</title>
+    
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+    
+    
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script language="javascript" src="javascripts/bootstrap.min.js" type="text/javascript"></script>
+    <script language="javascript" src="stylesheets/screen.css" type="text/javascript"></script>
+    <script language="javascript" src="javascripts/jquery.i18n.properties-1.0.9.js" type="text/javascript"></script>
+    
+
+    
+
+    <script type="text/javascript">
+        var countc=sessionStorage.getItem('count_c');
+        var countw=sessionStorage.getItem('count_w');
+        //document.getElementById("score").innerHTML=countc-countw;
+        //console.log(countc-countw);
+
+        function C(){
+
+            countc+=1;
+            
+            document.getElementById("score").innerHTML = countc-countw;
+            sessionStorage.setItem('countc',parseInt(sessionStorage.countc));
+            
+            alert("सही जवाब !")
+            
+        }
+        
+        function W(){
+          countw+=1;
+          
+          document.getElementById("score").innerHTML = countc-countw;
+          sessionStorage.setItem('countw',parseInt(sessionStorage.countw));
+
+          alert("गलत जवाब !")
+          
+        }
+
+    </script>
+
+    <script type="text/javascript">
+          var my_lang; 
+          $.getJSON("translate.json",function(data){
+              my_lang=data;
+              //console.log("Success!");
+          });
+          
+          //var obj=eval(my_lang);
+          //var temp=obj[1];
+          //console.log("JSON Data: "+temp);
+    
+    </script>
+
+    <style>
+    	
+    	body {
+    		background-image: url("Halloween.jpg") !important;
+    		background-repeat: no-repeat !important;
+
+    	}
+
+    </style>
+
+
+  </head>
+  <body>
+    <center>
+      <h1>Spelloween ( हिंदी में )!</h1>
+        <div class="container-fluid" >
+          <div class= "container" >
+             <p>किस शब्द की वर्तनी सही है ? </p>
+             <p style="text-align:left;"> स्कोर : </p>
+                
+                <script type="text/javascript">
+
+                  var countc=sessionStorage.getItem('count_c');
+                  var countw=sessionStorage.getItem('count_w');
+                  document.getElementById("score").innerHTML=countc-countw;
+
+                </script>
+
+             <div style="text-align:left;" id="score">  </div>
+              <ul>
+                <!--<li>  <button onclick="C()"> भूत </button></li>
+                <li>  <button onclick="W()">सीट </button></li>-->
+                <li>  <button type="submit" class="btn btn-default" id="w" onclick="C()"> समय </button> </li><br>
+                <li>  <button type="submit" class="btn btn-default" id="c" onclick="W()"> सम </button> </li>
+             </ul>
+             </div>
+             <a href="index.html"> <button type="submit " class="btn btn-default" style="float:right;">  अगला </button> </a>
+          </div>
+        </div>
+        
+
+       
+
+    </center>
+
+    
+  </body>
+</html>
