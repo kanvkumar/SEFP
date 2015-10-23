@@ -41,4 +41,7 @@ Week 6:
  #3 Learnt about priority of a functionality required while designing the software.
  #4 Learnt about User Interface like GUI widgets, Navigation Plan, Screen layout and Appearance.
 
-
+Week 7
+#1  Using concepts like modularity, maxinmum cohesion, minimum coupling (dependency) in our project.
+#2  Also explored other design principles like Code Reusability, Open/Closed principle and 
+    doing the simplest thing that could possibly work. 
