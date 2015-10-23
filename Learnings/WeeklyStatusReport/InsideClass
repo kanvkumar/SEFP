@@ -61,7 +61,11 @@ Week 6:
  #3 Different types of notations followed in software engineering like formal notation, informal notation, Semi-formal
     notation, No Notation.
 
-
+Week 7:
+#1 Learnt about software architecture like logical architecture: Organisation of a system into layers.
+#2 Dividing software into subsystems, deciding how these subsystems will interact and determining their interface. 
+#3 Principles of good design like Divide and Conquer, Maximum Cohesion, Minimum Coupling.
+#4 Common architectural patterns like Multi-Layer pattern, Client-server pattern,etc.
 
 
 
